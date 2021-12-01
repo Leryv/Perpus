@@ -10,12 +10,33 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <!-- Left Side Of Navbar -->
 
-            <ul class="navbar-nav mr-auto">
-
+            <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a href="{{route('users')}}" class="nav-link" >User</a>
+                    <a href="{{url('home')}}" class="nav-link">Home</a>
+                </li><li class="nav-item">
+                    <a href="{{url('books')}}" class="nav-link">Buku</a>
                 </li>
-
+                <li class="nav-item">
+                    <a href="{{url('users')}}" class="nav-link">Users</a>
+                </li>
+                <li class="nav-item">
+                    <a href="{{url('cetakkartuanggota')}}" class="nav-link">Cek Kartu Anggota</a>
+                </li>
+                <li class="nav-item">
+                    <a href="{{url('category/create')}}" class="nav-link">Category</a>
+                </li>
+                <li class="nav-item">
+                    <a href="{{url('peminjaman')}}" class="nav-link">Peminjaman</a>
+                </li>
+                <li class="nav-item">
+                    <a href="{{url('pengembalian')}}" class="nav-link">Pengembalian</a>
+                </li>
+                <li class="nav-item">
+                    <a href="{{url('buat-pengembalian')}}" class="nav-link">Buat pengembalian</a>
+                </li>
+                <!-- <li class="nav-item">
+                    <a href="" class="nav-link">Laporan</a>
+                </li> -->
             </ul>
 
             <!-- Right Side Of Navbar -->
