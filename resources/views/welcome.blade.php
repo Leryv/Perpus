@@ -85,7 +85,7 @@
                 </div>
 
                 <div class="links">
-                    <a href="http://localhost:8000/home"> Perpus </a>
+                    <a href="home"> Perpus </a>
                 </div>
             </div>
         </div>
